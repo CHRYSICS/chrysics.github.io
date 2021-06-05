@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,6 +9,14 @@ function App() {
         <p>
           Welcome to Chrysics Homepage
         </p>
+        <a
+          className="App-link"
+          href="https://github.com/CHRYSICS/CS340_group123"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link to a project
+        </a>
       </header>
     </div>
   );

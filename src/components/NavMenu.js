@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import profile from '../image/profile.jpg';
 import './NavMenu.css';
@@ -40,9 +41,19 @@ export class NavMenu extends Component {
                                 <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/about">About</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
-                                </NavItem>
+                                <Dropdown as={NavItem} className="dropdown">
+                                    <Dropdown.Toggle className="text-dark nav-link dropdown-button">Projects</Dropdown.Toggle>
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item as={NavLink} tag={Link} className="text-dark nav-link" to="/projects/active">Active</Dropdown.Item>
+                                        <Dropdown.Item as={NavLink} tag={Link} className="text-dark nav-link" to="/projects/archive">Archive</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                                {/*<NavItem>*/}
+                                {/*    <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>*/}
+                                {/*</NavItem>*/}
+                                {/*<NavItem>*/}
+                                {/*    <NavLink tag={Link} className="text-dark" to="/tutorials">Tutorials</NavLink>*/}
+                                {/*</NavItem>*/}
                                 <NavItem>
                                     <a className="text-dark nav-link" href="https://www.linkedin.com/in/chrysics91">LinkedIn</a>
                                 </NavItem>

@@ -15,6 +15,14 @@ export const archivedProjects = [
         image: "smallsh.gif",
         preview: "smallsh.mp4"
     },
+    {
+        title: "Naturally Green Cleaning",
+        subtitle: "Web Development",
+        description: "Deployed a website for a small business client for business information, contact, and scheduling options.",
+        link: "https://github.com/CHRYSICS/NaturallyGreenCleaning",
+        image: "naturallyGreenCleaning.png",
+        preview: "NaturallyGreenCleaning.mp4"
+    },
 ];
 
 export const activeProjects = [

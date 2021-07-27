@@ -41,16 +41,17 @@ export class NavMenu extends Component {
                                 <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/about">About</NavLink>
                                 </NavItem>
-                                <Dropdown as={NavItem} className="dropdown">
+                                {/*<Dropdown as={NavItem} className="dropdown">
                                     <Dropdown.Toggle className="text-dark nav-link dropdown-button">Projects</Dropdown.Toggle>
                                     <Dropdown.Menu>
                                         <Dropdown.Item as={NavLink} tag={Link} className="text-dark nav-link" to="/projects/active">Active</Dropdown.Item>
                                         <Dropdown.Item as={NavLink} tag={Link} className="text-dark nav-link" to="/projects/archive">Archive</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
-                                {/*<NavItem>*/}
-                                {/*    <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>*/}
-                                {/*</NavItem>*/}
+                                */}
+                                <NavItem>
+                                    <NavLink tag={Link} className="text-dark" to="/projects/archive">Projects</NavLink>
+                                </NavItem>
                                 {/*<NavItem>*/}
                                 {/*    <NavLink tag={Link} className="text-dark" to="/tutorials">Tutorials</NavLink>*/}
                                 {/*</NavItem>*/}

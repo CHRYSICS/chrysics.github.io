@@ -11,7 +11,7 @@ export class Projects extends Component {
         if (showArchived) {
             projectData = archivedProjects;
             projectTitle = <div className="Title">
-                <h1>PAST PROJECTS</h1>
+                <h1>PROJECTS</h1>
             </div>;
         } else {
             projectData = activeProjects;
@@ -30,21 +30,22 @@ export class Projects extends Component {
                     {projectData.map((project) => (
                         <a href={project.link} key={project.image}>
                             <div className="overlay">
-                                <video poster={require(`../image/${project.image}`).default} autoPlay loop>
+                                <video poster={require(`../image/${project.image}`).default} autoPlay loop mute>
                                     <source src={require(`../video/${project.preview}`).default} type="video/mp4" />
                                 </video>
-                                <div className="overlay_top overlay_text">
-                                    <h2>
-                                        {project.subtitle}
-                                    </h2>
-                                    <h1>
-                                        {project.title}
-                                    </h1>
-                                    <p>{project.description}</p>
-                                </div>
-                                <div className="overlay_top_show overlay_text">
-                                    <h1>See Project Repository</h1>
-                                </div>
+                                    <div className="overlay_top overlay_text">
+                                        <h1>
+                                            {project.title}
+                                        </h1>
+                                        <h2>
+                                            {project.subtitle}
+                                        </h2>
+                                        <p><b>{project.description}</b></p>
+                                    </div>
+                                    <div className="overlay_top_show overlay_text">
+                                        <h1>See Project Repository</h1>
+                                    </div>
+                                
                             </div>
                         </a>
                     ))}

@@ -1,3 +1,18 @@
+export const techskills = [
+    "Python",
+    "C",
+    "C#",
+    "javascript",
+    "html",
+    "css",
+    "Flask",
+    ".NetCore",
+    "React",
+    "mysql",
+    "Windows",
+    "Linux",
+];
+
 export const archivedProjects = [
     {
         title: "Xiangqi (2.0)",

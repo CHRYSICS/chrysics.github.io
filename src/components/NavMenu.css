@@ -33,3 +33,7 @@ button {
 .dropdown-button {
     border:0;
 }
+
+svg {
+    padding-bottom:2px;
+}

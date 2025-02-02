@@ -66,7 +66,7 @@ export class NavMenu extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <a rel="me" href="https://mastodon.social/@chrysics">Mastodon</a>
-</NavItem>
+                                </NavItem>
                                 <NavItem>
                                     <a className="text-dark nav-link" href="https://github.com/CHRYSICS/">
                                         <ImGithub /> GitHub</a>

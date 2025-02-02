@@ -1,34 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2705cb33.chunk.css",
-    "main.js": "/static/js/main.8e57e7fd.chunk.js",
-    "main.js.map": "/static/js/main.8e57e7fd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cd6c488f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cd6c488f.js.map",
-    "static/css/2.4f8976c6.chunk.css": "/static/css/2.4f8976c6.chunk.css",
-    "static/js/2.ca14a1eb.chunk.js": "/static/js/2.ca14a1eb.chunk.js",
-    "static/js/2.ca14a1eb.chunk.js.map": "/static/js/2.ca14a1eb.chunk.js.map",
-    "static/js/3.6814700d.chunk.js": "/static/js/3.6814700d.chunk.js",
-    "static/js/3.6814700d.chunk.js.map": "/static/js/3.6814700d.chunk.js.map",
+    "main.css": "/static/css/main.c85663a0.css",
+    "main.js": "/static/js/main.14c4a8f5.js",
+    "static/js/453.ea41da1c.chunk.js": "/static/js/453.ea41da1c.chunk.js",
+    "static/media/NaturallyGreenCleaning.mp4": "/static/media/NaturallyGreenCleaning.b028ef475add3d13b31d.mp4",
+    "static/media/xiangqi_v2.mp4": "/static/media/xiangqi_v2.b87cda639c8f89b95906.mp4",
+    "static/media/smallsh.mp4": "/static/media/smallsh.4a223d3804d739382ede.mp4",
+    "static/media/background.jpg": "/static/media/background.2cd5e368ce6f5cc5799a.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.2a67fbcb12e204008675.jpg",
+    "static/media/naturallyGreenCleaning.png": "/static/media/naturallyGreenCleaning.09252a20344dfd25d122.png",
+    "static/media/profile.jpg": "/static/media/profile.ce4106f607588ddd67a7.jpg",
+    "static/media/xiangqi.png": "/static/media/xiangqi.7a47271274e1d56b5b25.png",
+    "static/media/smallsh.gif": "/static/media/smallsh.c8271d90545c383b4d4c.gif",
     "index.html": "/index.html",
-    "static/css/2.4f8976c6.chunk.css.map": "/static/css/2.4f8976c6.chunk.css.map",
-    "static/css/main.2705cb33.chunk.css.map": "/static/css/main.2705cb33.chunk.css.map",
-    "static/js/2.ca14a1eb.chunk.js.LICENSE.txt": "/static/js/2.ca14a1eb.chunk.js.LICENSE.txt",
-    "static/media/NaturallyGreenCleaning.mp4": "/static/media/NaturallyGreenCleaning.b028ef47.mp4",
-    "static/media/App.css": "/static/media/background.2cd5e368.jpg",
-    "static/media/naturallyGreenCleaning.png": "/static/media/naturallyGreenCleaning.09252a20.png",
-    "static/media/portrait.jpg": "/static/media/portrait.2a67fbcb.jpg",
-    "static/media/profile.jpg": "/static/media/profile.ce4106f6.jpg",
-    "static/media/smallsh.mp4": "/static/media/smallsh.4a223d38.mp4",
-    "static/media/smallsh.gif": "/static/media/smallsh.c8271d90.gif",
-    "static/media/xiangqi.png": "/static/media/xiangqi.7a472712.png",
-    "static/media/xiangqi_v2.mp4": "/static/media/xiangqi_v2.b87cda63.mp4"
+    "main.c85663a0.css.map": "/static/css/main.c85663a0.css.map",
+    "main.14c4a8f5.js.map": "/static/js/main.14c4a8f5.js.map",
+    "453.ea41da1c.chunk.js.map": "/static/js/453.ea41da1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd6c488f.js",
-    "static/css/2.4f8976c6.chunk.css",
-    "static/js/2.ca14a1eb.chunk.js",
-    "static/css/main.2705cb33.chunk.css",
-    "static/js/main.8e57e7fd.chunk.js"
+    "static/css/main.c85663a0.css",
+    "static/js/main.14c4a8f5.js"
   ]
 }
